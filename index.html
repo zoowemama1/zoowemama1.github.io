@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="Zoowemama | Home" />
+    <meta name="description" content="Zoowemama | Home" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no">
+    <meta itemprop="name" content="Zoowemama | Home">
+    <meta name="description" itemprop="description" content="Zoowemama | Home">
 	<title>Zoowemama | Home</title>
 	<style type="text/css">
 		body {
@@ -16,9 +23,19 @@
 	</style>
 </head>
 <body>
-	<img src="https://s2.ax1x.com/2019/01/03/FIWDpQ.jpg" />
-	<img src="https://s2.ax1x.com/2019/01/03/FIWyXn.jpg" />
-	<img src="https://s2.ax1x.com/2019/01/03/FIWrlj.jpg" />
-	<img src="https://s2.ax1x.com/2019/01/03/FIW0fg.jpg" />
+	<img id="miserable" src="http://storyincafe.com/blogpics/mz1.jpg" />
+	<img src="http://storyincafe.com/blogpics/mz2.jpg" />
+	<img src="http://storyincafe.com/blogpics/mz3.jpg" />
+	<img src="http://storyincafe.com/blogpics/mz4.jpg" />
+
+	<script type="text/javascript">
+		var miserable = document.getElementById('miserable');
+		miserable.addEventListener('click', function (){
+			alert("泽彬是猪");
+		});
+
+		console.log('%c YO~我是泽彬~ ', 'font-weight: bold; font-style:italic; color: #e67e22; font-size: 40px; font-family: "Helvetica Neue";');
+		console.log('%c      ', 'background:url(http://storyincafe.com/blogpics/zebin.jpg) no-repeat left center;font-size:420px');
+	</script>
 </body>
 </html>
